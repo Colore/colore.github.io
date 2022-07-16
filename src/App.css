@@ -1,0 +1,21 @@
+HTML,
+BODY {
+  background-color: #ebebeb;
+  border-top      : 5px solid #555555;
+  font            : normal 12px "Trebuchet MS", Verdana, "Lucida Grande", Georgia, Sans-Serif;
+}
+
+a {
+  /* color              : #336699; */
+  text-decoration    : none;
+  border-bottom-color: #336699;
+}
+
+.spacious {
+  margin-top   : 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.centered {
+  text-align: center;
+}

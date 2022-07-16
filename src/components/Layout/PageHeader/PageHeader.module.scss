@@ -1,0 +1,37 @@
+.ImagePageHeader {
+    max-width: 100%;
+}
+
+.PageHeaderNav {
+    bottom         : 25px;
+    right          : 10px;
+    margin         : 0;
+    padding        : 0;
+    float          : right;
+    position       : relative;
+    list-style-type: none;
+}
+
+.PageHeaderItem {
+    background-color   : #65728d;
+    float              : left;
+    display            : block;
+    margin             : 0 10px;
+    padding            : 5px 20px;
+    color              : #ffffff !important;
+    border-bottom-width: 0;
+    background-image   : url("../../../assets/images/menu.png");
+    background-repeat  : repeat-x;
+    background-color   : #65728D;
+}
+
+.PageHeaderItem:active {
+    background-image: url("../../../assets/images/menu_hover.png");
+    background-color: #374462;
+}
+
+.CurrentPageHeaderItem {
+    color           : #eff8ff;
+    background-color: #374462;
+    background-image: url("../../../assets/images/menu_hover.png");
+}

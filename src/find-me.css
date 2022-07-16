@@ -1,0 +1,597 @@
+.find-me {
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.find-me.aliceblue {
+  border-color: aliceblue;
+}
+
+.find-me.antiquewhite {
+  border-color: antiquewhite;
+}
+
+.find-me.aqua {
+  border-color: aqua;
+}
+
+.find-me.aquamarine {
+  border-color: aquamarine;
+}
+
+.find-me.azure {
+  border-color: azure;
+}
+
+.find-me.beige {
+  border-color: beige;
+}
+
+.find-me.bisque {
+  border-color: bisque;
+}
+
+.find-me.black {
+  border-color: black;
+}
+
+.find-me.blanchedalmond {
+  border-color: blanchedalmond;
+}
+
+.find-me.blue {
+  border-color: blue;
+}
+
+.find-me.blueviolet {
+  border-color: blueviolet;
+}
+
+.find-me.brown {
+  border-color: brown;
+}
+
+.find-me.burlywood {
+  border-color: burlywood;
+}
+
+.find-me.cadetblue {
+  border-color: cadetblue;
+}
+
+.find-me.chartreuse {
+  border-color: chartreuse;
+}
+
+.find-me.chocolate {
+  border-color: chocolate;
+}
+
+.find-me.coral {
+  border-color: coral;
+}
+
+.find-me.cornflowerblue {
+  border-color: cornflowerblue;
+}
+
+.find-me.cornsilk {
+  border-color: cornsilk;
+}
+
+.find-me.crimson {
+  border-color: crimson;
+}
+
+.find-me.cyan {
+  border-color: cyan;
+}
+
+.find-me.darkblue {
+  border-color: darkblue;
+}
+
+.find-me.darkcyan {
+  border-color: darkcyan;
+}
+
+.find-me.darkgoldenrod {
+  border-color: darkgoldenrod;
+}
+
+.find-me.darkgray {
+  border-color: darkgray;
+}
+
+.find-me.darkgrey {
+  border-color: darkgrey;
+}
+
+.find-me.darkgreen {
+  border-color: darkgreen;
+}
+
+.find-me.darkkhaki {
+  border-color: darkkhaki;
+}
+
+.find-me.darkmagenta {
+  border-color: darkmagenta;
+}
+
+.find-me.darkolivegreen {
+  border-color: darkolivegreen;
+}
+
+.find-me.darkorange {
+  border-color: darkorange;
+}
+
+.find-me.darkorchid {
+  border-color: darkorchid;
+}
+
+.find-me.darkred {
+  border-color: darkred;
+}
+
+.find-me.darksalmon {
+  border-color: darksalmon;
+}
+
+.find-me.darkseagreen {
+  border-color: darkseagreen;
+}
+
+.find-me.darkslateblue {
+  border-color: darkslateblue;
+}
+
+.find-me.darkslategray {
+  border-color: darkslategray;
+}
+
+.find-me.darkslategrey {
+  border-color: darkslategrey;
+}
+
+.find-me.darkturquoise {
+  border-color: darkturquoise;
+}
+
+.find-me.darkviolet {
+  border-color: darkviolet;
+}
+
+.find-me.deeppink {
+  border-color: deeppink;
+}
+
+.find-me.deepskyblue {
+  border-color: deepskyblue;
+}
+
+.find-me.dimgray {
+  border-color: dimgray;
+}
+
+.find-me.dimgrey {
+  border-color: dimgrey;
+}
+
+.find-me.dodgerblue {
+  border-color: dodgerblue;
+}
+
+.find-me.firebrick {
+  border-color: firebrick;
+}
+
+.find-me.floralwhite {
+  border-color: floralwhite;
+}
+
+.find-me.forestgreen {
+  border-color: forestgreen;
+}
+
+.find-me.fuchsia {
+  border-color: fuchsia;
+}
+
+.find-me.gainsboro {
+  border-color: gainsboro;
+}
+
+.find-me.ghostwhite {
+  border-color: ghostwhite;
+}
+
+.find-me.gold {
+  border-color: gold;
+}
+
+.find-me.goldenrod {
+  border-color: goldenrod;
+}
+
+.find-me.gray {
+  border-color: gray;
+}
+
+.find-me.grey {
+  border-color: grey;
+}
+
+.find-me.green {
+  border-color: green;
+}
+
+.find-me.greenyellow {
+  border-color: greenyellow;
+}
+
+.find-me.honeydew {
+  border-color: honeydew;
+}
+
+.find-me.hotpink {
+  border-color: hotpink;
+}
+
+.find-me.indianred {
+  border-color: indianred;
+}
+
+.find-me.indigo {
+  border-color: indigo;
+}
+
+.find-me.ivory {
+  border-color: ivory;
+}
+
+.find-me.khaki {
+  border-color: khaki;
+}
+
+.find-me.lavender {
+  border-color: lavender;
+}
+
+.find-me.lavenderblush {
+  border-color: lavenderblush;
+}
+
+.find-me.lawngreen {
+  border-color: lawngreen;
+}
+
+.find-me.lemonchiffon {
+  border-color: lemonchiffon;
+}
+
+.find-me.lightblue {
+  border-color: lightblue;
+}
+
+.find-me.lightcoral {
+  border-color: lightcoral;
+}
+
+.find-me.lightcyan {
+  border-color: lightcyan;
+}
+
+.find-me.lightgoldenrodyellow {
+  border-color: lightgoldenrodyellow;
+}
+
+.find-me.lightgray {
+  border-color: lightgray;
+}
+
+.find-me.lightgrey {
+  border-color: lightgrey;
+}
+
+.find-me.lightgreen {
+  border-color: lightgreen;
+}
+
+.find-me.lightpink {
+  border-color: lightpink;
+}
+
+.find-me.lightsalmon {
+  border-color: lightsalmon;
+}
+
+.find-me.lightseagreen {
+  border-color: lightseagreen;
+}
+
+.find-me.lightskyblue {
+  border-color: lightskyblue;
+}
+
+.find-me.lightslategray {
+  border-color: lightslategray;
+}
+
+.find-me.lightslategrey {
+  border-color: lightslategrey;
+}
+
+.find-me.lightsteelblue {
+  border-color: lightsteelblue;
+}
+
+.find-me.lightyellow {
+  border-color: lightyellow;
+}
+
+.find-me.lime {
+  border-color: lime;
+}
+
+.find-me.limegreen {
+  border-color: limegreen;
+}
+
+.find-me.linen {
+  border-color: linen;
+}
+
+.find-me.magenta {
+  border-color: magenta;
+}
+
+.find-me.maroon {
+  border-color: maroon;
+}
+
+.find-me.mediumaquamarine {
+  border-color: mediumaquamarine;
+}
+
+.find-me.mediumblue {
+  border-color: mediumblue;
+}
+
+.find-me.mediumorchid {
+  border-color: mediumorchid;
+}
+
+.find-me.mediumpurple {
+  border-color: mediumpurple;
+}
+
+.find-me.mediumseagreen {
+  border-color: mediumseagreen;
+}
+
+.find-me.mediumslateblue {
+  border-color: mediumslateblue;
+}
+
+.find-me.mediumspringgreen {
+  border-color: mediumspringgreen;
+}
+
+.find-me.mediumturquoise {
+  border-color: mediumturquoise;
+}
+
+.find-me.mediumvioletred {
+  border-color: mediumvioletred;
+}
+
+.find-me.midnightblue {
+  border-color: midnightblue;
+}
+
+.find-me.mintcream {
+  border-color: mintcream;
+}
+
+.find-me.mistyrose {
+  border-color: mistyrose;
+}
+
+.find-me.moccasin {
+  border-color: moccasin;
+}
+
+.find-me.navajowhite {
+  border-color: navajowhite;
+}
+
+.find-me.navy {
+  border-color: navy;
+}
+
+.find-me.oldlace {
+  border-color: oldlace;
+}
+
+.find-me.olive {
+  border-color: olive;
+}
+
+.find-me.olivedrab {
+  border-color: olivedrab;
+}
+
+.find-me.orange {
+  border-color: orange;
+}
+
+.find-me.orangered {
+  border-color: orangered;
+}
+
+.find-me.orchid {
+  border-color: orchid;
+}
+
+.find-me.palegoldenrod {
+  border-color: palegoldenrod;
+}
+
+.find-me.palegreen {
+  border-color: palegreen;
+}
+
+.find-me.paleturquoise {
+  border-color: paleturquoise;
+}
+
+.find-me.palevioletred {
+  border-color: palevioletred;
+}
+
+.find-me.papayawhip {
+  border-color: papayawhip;
+}
+
+.find-me.peachpuff {
+  border-color: peachpuff;
+}
+
+.find-me.peru {
+  border-color: peru;
+}
+
+.find-me.pink {
+  border-color: pink;
+}
+
+.find-me.plum {
+  border-color: plum;
+}
+
+.find-me.powderblue {
+  border-color: powderblue;
+}
+
+.find-me.purple {
+  border-color: purple;
+}
+
+.find-me.rebeccapurple {
+  border-color: rebeccapurple;
+}
+
+.find-me.red {
+  border-color: red;
+}
+
+.find-me.rosybrown {
+  border-color: rosybrown;
+}
+
+.find-me.royalblue {
+  border-color: royalblue;
+}
+
+.find-me.saddlebrown {
+  border-color: saddlebrown;
+}
+
+.find-me.salmon {
+  border-color: salmon;
+}
+
+.find-me.sandybrown {
+  border-color: sandybrown;
+}
+
+.find-me.seagreen {
+  border-color: seagreen;
+}
+
+.find-me.seashell {
+  border-color: seashell;
+}
+
+.find-me.sienna {
+  border-color: sienna;
+}
+
+.find-me.silver {
+  border-color: silver;
+}
+
+.find-me.skyblue {
+  border-color: skyblue;
+}
+
+.find-me.slateblue {
+  border-color: slateblue;
+}
+
+.find-me.slategray {
+  border-color: slategray;
+}
+
+.find-me.slategrey {
+  border-color: slategrey;
+}
+
+.find-me.snow {
+  border-color: snow;
+}
+
+.find-me.springgreen {
+  border-color: springgreen;
+}
+
+.find-me.steelblue {
+  border-color: steelblue;
+}
+
+.find-me.tan {
+  border-color: tan;
+}
+
+.find-me.teal {
+  border-color: teal;
+}
+
+.find-me.thistle {
+  border-color: thistle;
+}
+
+.find-me.tomato {
+  border-color: tomato;
+}
+
+.find-me.turquoise {
+  border-color: turquoise;
+}
+
+.find-me.violet {
+  border-color: violet;
+}
+
+.find-me.wheat {
+  border-color: wheat;
+}
+
+.find-me.white {
+  border-color: white;
+}
+
+.find-me.whitesmoke {
+  border-color: whitesmoke;
+}
+
+.find-me.yellow {
+  border-color: yellow;
+}
+
+.find-me.yellowgreen {
+  border-color: yellowgreen;
+}
