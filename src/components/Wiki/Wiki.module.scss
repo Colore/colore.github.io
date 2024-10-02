@@ -1,0 +1,23 @@
+.Wiki {
+    color: darkolivegreen;
+}
+
+.WikiContent {
+    margin-right: 64px;
+
+    & h2 {
+        border-bottom: solid 1px grey;
+        font-weight: revert;
+        margin: revert;
+    }
+
+    & p {
+        line-height: 1.5rem;
+        margin: 5px 0;
+    }
+
+    & ul {
+        list-style: revert;
+        padding: revert;
+    }
+}

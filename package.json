@@ -1,0 +1,143 @@
+{
+    "dependencies": {
+        "@tanstack/react-router": "^1.58.16",
+        "clsx": "^2.1.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-markdown": "^9.0.1",
+        "remark-gfm": "^4.0.0",
+        "wireit": "^0.14.9"
+    },
+    "devDependencies": {
+        "@chromatic-com/storybook": "^1.9.0",
+        "@eslint/compat": "^1.1.1",
+        "@eslint/js": "^9.9.0",
+        "@storybook/addon-essentials": "^8.3.4",
+        "@storybook/addon-interactions": "^8.3.4",
+        "@storybook/addon-links": "^8.3.4",
+        "@storybook/addon-onboarding": "^8.3.4",
+        "@storybook/addon-styling-webpack": "^1.0.0",
+        "@storybook/addon-themes": "^8.3.4",
+        "@storybook/blocks": "^8.3.4",
+        "@storybook/react": "^8.3.4",
+        "@storybook/react-vite": "^8.3.4",
+        "@storybook/test": "^8.3.4",
+        "@tanstack/eslint-plugin-router": "^1.58.6",
+        "@tanstack/router-devtools": "^1.58.16",
+        "@tanstack/router-plugin": "^1.58.12",
+        "@types/node": "^22.7.4",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react-swc": "^3.5.0",
+        "autoprefixer": "^10.4.20",
+        "concurrently": "^9.0.1",
+        "cz-conventional-changelog": "3.3.0",
+        "eslint": "^9.9.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+        "eslint-plugin-react-refresh": "^0.4.9",
+        "eslint-plugin-storybook": "^0.9.0",
+        "globals": "^15.9.0",
+        "postcss": "^8.4.47",
+        "prettier": "^3.3.3",
+        "sass-embedded": "^1.79.4",
+        "storybook": "^8.3.4",
+        "tailwindcss": "^3.4.13",
+        "typescript": "^5.5.3",
+        "typescript-eslint": "^8.0.1",
+        "vite": "^5.4.1",
+        "vite-tsconfig-paths": "^5.0.1"
+    },
+    "eslintConfig": {
+        "extends": [
+            "plugin:storybook/recommended"
+        ]
+    },
+    "homepage": ".",
+    "name": "colore.github.io-vite",
+    "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
+    "private": true,
+    "scripts": {
+        "build": "wireit",
+        "build:storybook": "wireit",
+        "build:preview": "wireit",
+        "commit": "npx git-cz",
+        "create:component": "npx generate-react-cli component",
+        "create:page": "npx generate-react-cli component --type=page",
+        "deploy": "wireit",
+        "dev": "wireit",
+        "format": "wireit",
+        "lint": "wireit",
+        "lint:fix": "wireit",
+        "postbuild": "cp build/index.html build/404.html",
+        "postpostrelease": "yarn push",
+        "postrelease": "yarn deploy",
+        "preview": "wireit",
+        "push": "wireit",
+        "release": "wireit",
+        "start": "wireit",
+        "storybook": "wireit"
+    },
+    "type": "module",
+    "version": "0.0.0",
+    "wireit": {
+        "build": {
+            "command": "vite build",
+            "dependencies": [
+                "check",
+                "lint",
+                "format"
+            ]
+        },
+        "build:preview": {
+            "dependencies": [
+                "build"
+            ],
+            "command": "npx serve@latest -l 5173 -s build/"
+        },
+        "build:storybook": {
+            "command": "storybook build"
+        },
+        "check": {
+            "command": "tsc -b"
+        },
+        "deploy": {
+            "command": "npx gh-pages -d build",
+            "dependencies": [
+                "build"
+            ]
+        },
+        "dev": {
+            "command": "vite",
+            "service": true
+        },
+        "format": {
+            "command": "prettier -w ."
+        },
+        "lint": {
+            "command": "eslint .storybook src"
+        },
+        "lint:fix": {
+            "command": "eslint --fix .storybook src"
+        },
+        "preview": {
+            "command": "vite preview",
+            "service": true
+        },
+        "push": {
+            "command": "git push --follow-tags origin master"
+        },
+        "release": {
+            "command": "npx standard-version"
+        },
+        "start": {
+            "dependencies": [
+                "dev"
+            ]
+        },
+        "storybook": {
+            "command": "storybook dev -p 6006",
+            "service": true
+        }
+    }
+}
