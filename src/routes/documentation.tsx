@@ -9,7 +9,7 @@ function Documentation() {
         <div className='text-colore'>
             <h2>Welcome to the Colore documentation.</h2>
             <p>A few starting points:</p>
-            <ul>
+            <ul className='list-disc ps-8'>
                 <li>
                     <Link to='/background' title='Background'>
                         Background
