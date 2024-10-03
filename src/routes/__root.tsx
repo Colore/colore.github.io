@@ -15,7 +15,7 @@ export const Route = createRootRoute({
         <>
             <div className='flex flex-row'>
                 <div className='basis-0 sm:basis-1/12 md:basis-1/4'></div>
-                <div className='basis-auto sm:basis-10/12 md:basis-2/4 shadow-content'>
+                <div className='basis-full sm:basis-10/12 md:basis-2/4 shadow-content'>
                     <div className='min-h-full'>
                         <div className='flex flex-col'>
                             <div className='flex-none'>
